@@ -1,0 +1,17 @@
+{
+  "name": "sentry-teams-webhook-proxy",
+  "version": "1.0.0",
+  "description": "Proxy service to transform Sentry webhooks to Teams format for Power Automate",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": ["sentry", "teams", "webhook", "proxy"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
